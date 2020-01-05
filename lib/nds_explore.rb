@@ -9,7 +9,7 @@ def pretty_print_nds(nds)
   pp nds
 end
 
-def print_first_directors_movie_titles(directors_database)
+def print_first_directors_movie_titles
   row_index = 0
   while row_index < directors_database.length do
     if directors_database[row_index][:name] == "Stephen Spielberg"
